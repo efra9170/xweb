@@ -1,0 +1,80 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fefefe;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header y Navegación */
+header {
+    background-color: #027373;
+    padding: 15px 0;
+    color: white;
+    text-align: center;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.nav-list li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.nav-list li a:hover {
+    text-decoration: underline;
+}
+
+/* Títulos */
+h1 {
+    text-align: center;
+    color: #005f73;
+    margin: 40px 0 20px;
+}
+
+h2 {
+    color: #0a9396;
+    margin-bottom: 10px;
+}
+
+/* Secciones de regiones */
+.region {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #e0fbfc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.region img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #001219;
+    color: white;
+    margin-top: 50px;
+}
